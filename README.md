@@ -1,3 +1,3 @@
 # ml5-starter-project
 
-Type "npm run start"
+Type "npm install" and "npm run start"
