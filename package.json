@@ -1,0 +1,36 @@
+{
+  "name": "ml5-starter-project",
+  "version": "1.0.0",
+  "description": "A template for a ml5.js sketch using Typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "watch": "parcel watch index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "p5": "0.9.0",
+    "ml5": "0.4.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3",
+    "typescript": "^3.8.3",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.4",
+    "eslint-config-airbnb-typescript": "^7.2.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "@types/p5": "0.9.0"
+  },
+  "author": "Erdi Uçar",
+  "license": "ISC",
+  "keywords": [
+    "p5js",
+    "ml5js",
+    "typescript"
+  ]
+}

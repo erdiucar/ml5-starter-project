@@ -1,0 +1,12 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["airbnb-typescript/base", "prettier"],
+  "rules": {
+    "no-console": 1,
+    "prettier/prettier": 1
+  }
+}
